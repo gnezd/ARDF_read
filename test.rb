@@ -11,5 +11,7 @@ while ptr < raw.size-1
   ptr += new_obj.size
   objects.push new_obj
 end
+File.open("object_list.txt", "w") {|f| f.puts (0..objects.size-1).map{|i| "#{i}: #{objects[i].inspect}"}}
+
 
 binding.pry

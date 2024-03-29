@@ -7,11 +7,11 @@ class ARDF
     null, @size, @name, @misc = header(raw, pos)
     pos += 16
     raise "Size zero at #{pos}" unless @size > 0
-    puts "#{@name} at #{@pos} with size #{@size}"
+    # puts "#{@name} at #{@pos} with size #{@size}"
 
     case @name
     when 'ARDF'
-      puts "ARDF begins"
+      # puts "ARDF begins"
     when 'FTOC', 'TTOC', 'VOLM', 'VTOC', 'IBOX' # is_an? TOC
       @size, entries_n, entry_size = raw[pos..pos+15].unpack "QLL"
       pos += 16
@@ -26,7 +26,7 @@ class ARDF
         end
         pos += entry_size
       end
-      puts "end of #{@name} TOC at #{pos}"
+      # puts "end of #{@name} TOC at #{pos}"
 
     when 'TEXT'
       pos += 4 # For some reason there is a 4B blank before text length ui32
@@ -38,11 +38,11 @@ class ARDF
     when 'THMB'
       if @size == 24
         @data[:ptr] = raw[pos..pos+7].unpack "q"
-        puts "This is just a pointer pointing at #{@data[:ptr]}"
+        # puts "This is just a pointer pointing at #{@data[:ptr]}"
         @size = 72
       else
         thumbx, thumby, couldbesize = raw[pos..pos+15].unpack "LLq"
-        puts "An actuall thumbnail with size of #{@size}. dimension #{thumbx} x #{thumby}, with each pixel having #{couldbesize} bits"
+        # puts "An actuall thumbnail with size of #{@size}. dimension #{thumbx} x #{thumby}, with each pixel having #{couldbesize} bits"
         @size = 32 + thumbx * thumby
       end
 
@@ -50,7 +50,7 @@ class ARDF
       if @size == 24 # tag
         @data[:ptr] = raw[pos..pos+7].unpack1 "q"
         pos += 8
-        puts "  image pointing at: #{@data[:ptr]}"
+        # puts "  image pointing at: #{@data[:ptr]}"
       elsif @size == 32 # TOC...
         # pasted from TOC case, seek elegance later
         @size, entries_n, entry_size = raw[pos..pos+15].unpack "QLL"
@@ -62,14 +62,14 @@ class ARDF
           begin
           @entries[i] = ARDF.new(raw, pos)
           rescue RuntimeError => err
-            puts "blank table entry" if err.message == "Size zero"
+            # puts "blank table entry" if err.message == "Size zero"
           end
           pos += entry_size
         end
-        puts "end of #{name} TOC at #{pos}"
+        # puts "end of #{name} TOC at #{pos}"
         # End of copy-paste
       else
-        puts "??? IMAG size of #{size}???"
+        # puts "??? IMAG size of #{size}???"
       end
 
     when 'GAMI'
@@ -105,7 +105,7 @@ class ARDF
 
     when 'NEXT'
       @data[:ptr] = raw[pos..pos+7].unpack1 "q"
-      puts "  NEXT ptr: #{@data[:ptr]}"
+      # puts "  NEXT ptr: #{@data[:ptr]}"
 
     when 'IDEF'
       @data[:dim] = raw[pos..pos+7].unpack1 "LL"
@@ -137,7 +137,7 @@ class ARDF
     when 'VDAT'
       @data[:ptnum], @data[:line], @data[:point], datasize, @data[:channel], pt0, pt1, pt2 = raw[pos..pos+39].unpack "LLLLqLLL@@@@"
       pos += 40
-      puts "pt012: #{pt0} #{pt1} #{pt2}"
+      # puts "pt012: #{pt0} #{pt1} #{pt2}"
       @data[:segments] = Array.new(3)
       @data[:segments][0] = raw[pos+0..pos+pt0*4+3].unpack "F*"
       @data[:segments][1] = raw[pos+pt0*4+4..pos+pt1*4+3].unpack "F*"
@@ -157,8 +157,31 @@ class ARDF
   end
   private :header
 
-  def to_s
+  def inspect
 #  attr_reader :pos, :name, :size, :misc, :entries, :data
-    "#{@name} at position #{@pos}, contains #{@entries.&size} entries. Data hash contains#{@data.keys.join(", ")}"
+    report = "#{@name} at position #{@pos} size #{@size}"
+    report += ", containing #{@entries.size} entries" if @entries.is_a? Array
+    report += "Data hash keys: [#{@data.keys.join(", ")}]" if @data.size > 0 
+    report
+  end
+end
+
+
+class ForceCurveMap
+  attr_accessor :name
+  attr_reader :channels, :width, :height, :lines
+  def initialize(fin)
+    raw = File.open
+    raw = File.open(fin, 'rb').read
+    ptr = 0
+
+    @ardf = []
+    while ptr < raw.size-1
+      new_obj = ARDF.new(raw, ptr)
+      ptr += new_obj.size
+      @ardf.push new_obj
+    end
+
+
   end
 end
