@@ -1,156 +1,240 @@
 0: ARDF at position 0 size 16
 1: FTOC at position 16 size 800, containing 32 entries
+  IMAG at position 48 size 24, data hash keys: [ptr]
+  IMAG at position 72 size 24, data hash keys: [ptr]
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
 2: TTOC at position 816 size 544, containing 16 entries
-3: TEXT at position 1360 size 16176Data hash keys: [text]
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+3: TEXT at position 1360 size 16176, data hash keys: [text]
 4: IMAG at position 17536 size 128, containing 4 entries
+  NEXT at position 17568 size 24, data hash keys: [ptr]
+  THMB at position 17592 size 72, data hash keys: [ptr]
+  nil
+  nil
 5: TTOC at position 17664 size 160, containing 4 entries
-6: IDEF at position 17824 size 184Data hash keys: [dim, title]
+  nil
+  nil
+  nil
+  nil
+6: IDEF at position 17824 size 184, data hash keys: [dim, title]
 7: IBOX at position 18008 size 160, containing 4 entries
+  IDAT at position 18040 size 32, data hash keys: [line]
+  IDAT at position 18072 size 32, data hash keys: [line]
+  IDAT at position 18104 size 32, data hash keys: [line]
+  IDAT at position 18136 size 32, data hash keys: [line]
 8: GAMI at position 18168 size 16
 9: IMAG at position 18184 size 128, containing 4 entries
+  NEXT at position 18216 size 24, data hash keys: [ptr]
+  THMB at position 18240 size 72, data hash keys: [ptr]
+  nil
+  nil
 10: TTOC at position 18312 size 160, containing 4 entries
-11: IDEF at position 18472 size 184Data hash keys: [dim, title]
+  nil
+  nil
+  nil
+  nil
+11: IDEF at position 18472 size 184, data hash keys: [dim, title]
 12: IBOX at position 18656 size 160, containing 4 entries
+  IDAT at position 18688 size 32, data hash keys: [line]
+  IDAT at position 18720 size 32, data hash keys: [line]
+  IDAT at position 18752 size 32, data hash keys: [line]
+  IDAT at position 18784 size 32, data hash keys: [line]
 13: GAMI at position 18816 size 16
-14: TEXT at position 18832 size 13160Data hash keys: [text]
+14: TEXT at position 18832 size 13160, data hash keys: [text]
 15: VOLM at position 31992 size 128, containing 4 entries
+  nil
+  nil
+  nil
+  nil
 16: TTOC at position 32120 size 160, containing 4 entries
-17: VDEF at position 32280 size 208Data hash keys: [dim, unknown, fields, channels_n]
-18: VCHN at position 32488 size 80Data hash keys: [title, unknown]
-19: VCHN at position 32568 size 80Data hash keys: [title, unknown]
-20: VCHN at position 32648 size 80Data hash keys: [title, unknown]
-21: VCHN at position 32728 size 80Data hash keys: [title, unknown]
-22: VCHN at position 32808 size 80Data hash keys: [title, unknown]
-23: XDEF at position 32888 size 96Data hash keys: [fields]
+  nil
+  nil
+  nil
+  nil
+17: VDEF at position 32280 size 208, data hash keys: [dim, unknown, fields, channels_n]
+18: VCHN at position 32488 size 80, data hash keys: [title, unknown]
+19: VCHN at position 32568 size 80, data hash keys: [title, unknown]
+20: VCHN at position 32648 size 80, data hash keys: [title, unknown]
+21: VCHN at position 32728 size 80, data hash keys: [title, unknown]
+22: VCHN at position 32808 size 80, data hash keys: [title, unknown]
+23: XDEF at position 32888 size 96, data hash keys: [fields]
 24: VTOC at position 32984 size 192, containing 4 entries
+  VOFF at position 33016 size 40, data hash keys: [leading_pt, line, first_pt_x, vset_ptr]
+  VOFF at position 33056 size 40, data hash keys: [leading_pt, line, first_pt_x, vset_ptr]
+  VOFF at position 33096 size 40, data hash keys: [leading_pt, line, first_pt_x, vset_ptr]
+  VOFF at position 33136 size 40, data hash keys: [leading_pt, line, first_pt_x, vset_ptr]
 25: MLOV at position 33176 size 16
-26: VSET at position 33192 size 48Data hash keys: [ptnum, line, remaining, unknown, last, next]
-27: VNAM at position 33240 size 64Data hash keys: [ptnum, line, remaining, title]
-28: VDAT at position 33304 size 61888Data hash keys: [ptnum, line, point, channel, segments]
-29: VDAT at position 95192 size 61888Data hash keys: [ptnum, line, point, channel, segments]
-30: VDAT at position 157080 size 61888Data hash keys: [ptnum, line, point, channel, segments]
-31: VDAT at position 218968 size 61888Data hash keys: [ptnum, line, point, channel, segments]
-32: VDAT at position 280856 size 61888Data hash keys: [ptnum, line, point, channel, segments]
-33: XDAT at position 342744 size 80Data hash keys: [xdat]
-34: VSET at position 342824 size 48Data hash keys: [ptnum, line, remaining, unknown, last, next]
-35: VNAM at position 342872 size 64Data hash keys: [ptnum, line, remaining, title]
-36: VDAT at position 342936 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-37: VDAT at position 404268 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-38: VDAT at position 465600 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-39: VDAT at position 526932 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-40: VDAT at position 588264 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-41: XDAT at position 649596 size 80Data hash keys: [xdat]
-42: VSET at position 649676 size 48Data hash keys: [ptnum, line, remaining, unknown, last, next]
-43: VNAM at position 649724 size 64Data hash keys: [ptnum, line, remaining, title]
-44: VDAT at position 649788 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-45: VDAT at position 711120 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-46: VDAT at position 772452 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-47: VDAT at position 833784 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-48: VDAT at position 895116 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-49: XDAT at position 956448 size 80Data hash keys: [xdat]
-50: VSET at position 956528 size 48Data hash keys: [ptnum, line, remaining, unknown, last, next]
-51: VNAM at position 956576 size 64Data hash keys: [ptnum, line, remaining, title]
-52: VDAT at position 956640 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-53: VDAT at position 1017972 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-54: VDAT at position 1079304 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-55: VDAT at position 1140636 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-56: VDAT at position 1201968 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-57: XDAT at position 1263300 size 80Data hash keys: [xdat]
-58: VSET at position 1263380 size 48Data hash keys: [ptnum, line, remaining, unknown, last, next]
-59: VNAM at position 1263428 size 64Data hash keys: [ptnum, line, remaining, title]
-60: VDAT at position 1263492 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-61: VDAT at position 1324824 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-62: VDAT at position 1386156 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-63: VDAT at position 1447488 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-64: VDAT at position 1508820 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-65: XDAT at position 1570152 size 80Data hash keys: [xdat]
-66: VSET at position 1570232 size 48Data hash keys: [ptnum, line, remaining, unknown, last, next]
-67: VNAM at position 1570280 size 64Data hash keys: [ptnum, line, remaining, title]
-68: VDAT at position 1570344 size 61328Data hash keys: [ptnum, line, point, channel, segments]
-69: VDAT at position 1631672 size 61328Data hash keys: [ptnum, line, point, channel, segments]
-70: VDAT at position 1693000 size 61328Data hash keys: [ptnum, line, point, channel, segments]
-71: VDAT at position 1754328 size 61328Data hash keys: [ptnum, line, point, channel, segments]
-72: VDAT at position 1815656 size 61328Data hash keys: [ptnum, line, point, channel, segments]
-73: XDAT at position 1876984 size 80Data hash keys: [xdat]
-74: VSET at position 1877064 size 48Data hash keys: [ptnum, line, remaining, unknown, last, next]
-75: VNAM at position 1877112 size 64Data hash keys: [ptnum, line, remaining, title]
-76: VDAT at position 1877176 size 61328Data hash keys: [ptnum, line, point, channel, segments]
-77: VDAT at position 1938504 size 61328Data hash keys: [ptnum, line, point, channel, segments]
-78: VDAT at position 1999832 size 61328Data hash keys: [ptnum, line, point, channel, segments]
-79: VDAT at position 2061160 size 61328Data hash keys: [ptnum, line, point, channel, segments]
-80: VDAT at position 2122488 size 61328Data hash keys: [ptnum, line, point, channel, segments]
-81: XDAT at position 2183816 size 80Data hash keys: [xdat]
-82: VSET at position 2183896 size 48Data hash keys: [ptnum, line, remaining, unknown, last, next]
-83: VNAM at position 2183944 size 64Data hash keys: [ptnum, line, remaining, title]
-84: VDAT at position 2184008 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-85: VDAT at position 2245340 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-86: VDAT at position 2306672 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-87: VDAT at position 2368004 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-88: VDAT at position 2429336 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-89: XDAT at position 2490668 size 80Data hash keys: [xdat]
-90: VSET at position 2490748 size 48Data hash keys: [ptnum, line, remaining, unknown, last, next]
-91: VNAM at position 2490796 size 64Data hash keys: [ptnum, line, remaining, title]
-92: VDAT at position 2490860 size 61336Data hash keys: [ptnum, line, point, channel, segments]
-93: VDAT at position 2552196 size 61336Data hash keys: [ptnum, line, point, channel, segments]
-94: VDAT at position 2613532 size 61336Data hash keys: [ptnum, line, point, channel, segments]
-95: VDAT at position 2674868 size 61336Data hash keys: [ptnum, line, point, channel, segments]
-96: VDAT at position 2736204 size 61336Data hash keys: [ptnum, line, point, channel, segments]
-97: XDAT at position 2797540 size 80Data hash keys: [xdat]
-98: VSET at position 2797620 size 48Data hash keys: [ptnum, line, remaining, unknown, last, next]
-99: VNAM at position 2797668 size 64Data hash keys: [ptnum, line, remaining, title]
-100: VDAT at position 2797732 size 61340Data hash keys: [ptnum, line, point, channel, segments]
-101: VDAT at position 2859072 size 61340Data hash keys: [ptnum, line, point, channel, segments]
-102: VDAT at position 2920412 size 61340Data hash keys: [ptnum, line, point, channel, segments]
-103: VDAT at position 2981752 size 61340Data hash keys: [ptnum, line, point, channel, segments]
-104: VDAT at position 3043092 size 61340Data hash keys: [ptnum, line, point, channel, segments]
-105: XDAT at position 3104432 size 80Data hash keys: [xdat]
-106: VSET at position 3104512 size 48Data hash keys: [ptnum, line, remaining, unknown, last, next]
-107: VNAM at position 3104560 size 64Data hash keys: [ptnum, line, remaining, title]
-108: VDAT at position 3104624 size 61340Data hash keys: [ptnum, line, point, channel, segments]
-109: VDAT at position 3165964 size 61340Data hash keys: [ptnum, line, point, channel, segments]
-110: VDAT at position 3227304 size 61340Data hash keys: [ptnum, line, point, channel, segments]
-111: VDAT at position 3288644 size 61340Data hash keys: [ptnum, line, point, channel, segments]
-112: VDAT at position 3349984 size 61340Data hash keys: [ptnum, line, point, channel, segments]
-113: XDAT at position 3411324 size 80Data hash keys: [xdat]
-114: VSET at position 3411404 size 48Data hash keys: [ptnum, line, remaining, unknown, last, next]
-115: VNAM at position 3411452 size 64Data hash keys: [ptnum, line, remaining, title]
-116: VDAT at position 3411516 size 61340Data hash keys: [ptnum, line, point, channel, segments]
-117: VDAT at position 3472856 size 61340Data hash keys: [ptnum, line, point, channel, segments]
-118: VDAT at position 3534196 size 61340Data hash keys: [ptnum, line, point, channel, segments]
-119: VDAT at position 3595536 size 61340Data hash keys: [ptnum, line, point, channel, segments]
-120: VDAT at position 3656876 size 61340Data hash keys: [ptnum, line, point, channel, segments]
-121: XDAT at position 3718216 size 80Data hash keys: [xdat]
-122: VSET at position 3718296 size 48Data hash keys: [ptnum, line, remaining, unknown, last, next]
-123: VNAM at position 3718344 size 64Data hash keys: [ptnum, line, remaining, title]
-124: VDAT at position 3718408 size 61336Data hash keys: [ptnum, line, point, channel, segments]
-125: VDAT at position 3779744 size 61336Data hash keys: [ptnum, line, point, channel, segments]
-126: VDAT at position 3841080 size 61336Data hash keys: [ptnum, line, point, channel, segments]
-127: VDAT at position 3902416 size 61336Data hash keys: [ptnum, line, point, channel, segments]
-128: VDAT at position 3963752 size 61336Data hash keys: [ptnum, line, point, channel, segments]
-129: XDAT at position 4025088 size 80Data hash keys: [xdat]
-130: VSET at position 4025168 size 48Data hash keys: [ptnum, line, remaining, unknown, last, next]
-131: VNAM at position 4025216 size 64Data hash keys: [ptnum, line, remaining, title]
-132: VDAT at position 4025280 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-133: VDAT at position 4086612 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-134: VDAT at position 4147944 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-135: VDAT at position 4209276 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-136: VDAT at position 4270608 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-137: XDAT at position 4331940 size 80Data hash keys: [xdat]
-138: VSET at position 4332020 size 48Data hash keys: [ptnum, line, remaining, unknown, last, next]
-139: VNAM at position 4332068 size 64Data hash keys: [ptnum, line, remaining, title]
-140: VDAT at position 4332132 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-141: VDAT at position 4393464 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-142: VDAT at position 4454796 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-143: VDAT at position 4516128 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-144: VDAT at position 4577460 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-145: XDAT at position 4638792 size 80Data hash keys: [xdat]
-146: VSET at position 4638872 size 48Data hash keys: [ptnum, line, remaining, unknown, last, next]
-147: VNAM at position 4638920 size 64Data hash keys: [ptnum, line, remaining, title]
-148: VDAT at position 4638984 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-149: VDAT at position 4700316 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-150: VDAT at position 4761648 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-151: VDAT at position 4822980 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-152: VDAT at position 4884312 size 61332Data hash keys: [ptnum, line, point, channel, segments]
-153: XDAT at position 4945644 size 80Data hash keys: [xdat]
+26: VSET at position 33192 size 48, data hash keys: [ptnum, y, x, unknown, last, next]
+27: VNAM at position 33240 size 64, data hash keys: [ptnum, y, x, title]
+28: VDAT at position 33304 size 61888, data hash keys: [ptnum, y, x, channel, segments]
+29: VDAT at position 95192 size 61888, data hash keys: [ptnum, y, x, channel, segments]
+30: VDAT at position 157080 size 61888, data hash keys: [ptnum, y, x, channel, segments]
+31: VDAT at position 218968 size 61888, data hash keys: [ptnum, y, x, channel, segments]
+32: VDAT at position 280856 size 61888, data hash keys: [ptnum, y, x, channel, segments]
+33: XDAT at position 342744 size 80, data hash keys: [xdat]
+34: VSET at position 342824 size 48, data hash keys: [ptnum, y, x, unknown, last, next]
+35: VNAM at position 342872 size 64, data hash keys: [ptnum, y, x, title]
+36: VDAT at position 342936 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+37: VDAT at position 404268 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+38: VDAT at position 465600 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+39: VDAT at position 526932 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+40: VDAT at position 588264 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+41: XDAT at position 649596 size 80, data hash keys: [xdat]
+42: VSET at position 649676 size 48, data hash keys: [ptnum, y, x, unknown, last, next]
+43: VNAM at position 649724 size 64, data hash keys: [ptnum, y, x, title]
+44: VDAT at position 649788 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+45: VDAT at position 711120 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+46: VDAT at position 772452 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+47: VDAT at position 833784 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+48: VDAT at position 895116 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+49: XDAT at position 956448 size 80, data hash keys: [xdat]
+50: VSET at position 956528 size 48, data hash keys: [ptnum, y, x, unknown, last, next]
+51: VNAM at position 956576 size 64, data hash keys: [ptnum, y, x, title]
+52: VDAT at position 956640 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+53: VDAT at position 1017972 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+54: VDAT at position 1079304 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+55: VDAT at position 1140636 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+56: VDAT at position 1201968 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+57: XDAT at position 1263300 size 80, data hash keys: [xdat]
+58: VSET at position 1263380 size 48, data hash keys: [ptnum, y, x, unknown, last, next]
+59: VNAM at position 1263428 size 64, data hash keys: [ptnum, y, x, title]
+60: VDAT at position 1263492 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+61: VDAT at position 1324824 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+62: VDAT at position 1386156 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+63: VDAT at position 1447488 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+64: VDAT at position 1508820 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+65: XDAT at position 1570152 size 80, data hash keys: [xdat]
+66: VSET at position 1570232 size 48, data hash keys: [ptnum, y, x, unknown, last, next]
+67: VNAM at position 1570280 size 64, data hash keys: [ptnum, y, x, title]
+68: VDAT at position 1570344 size 61328, data hash keys: [ptnum, y, x, channel, segments]
+69: VDAT at position 1631672 size 61328, data hash keys: [ptnum, y, x, channel, segments]
+70: VDAT at position 1693000 size 61328, data hash keys: [ptnum, y, x, channel, segments]
+71: VDAT at position 1754328 size 61328, data hash keys: [ptnum, y, x, channel, segments]
+72: VDAT at position 1815656 size 61328, data hash keys: [ptnum, y, x, channel, segments]
+73: XDAT at position 1876984 size 80, data hash keys: [xdat]
+74: VSET at position 1877064 size 48, data hash keys: [ptnum, y, x, unknown, last, next]
+75: VNAM at position 1877112 size 64, data hash keys: [ptnum, y, x, title]
+76: VDAT at position 1877176 size 61328, data hash keys: [ptnum, y, x, channel, segments]
+77: VDAT at position 1938504 size 61328, data hash keys: [ptnum, y, x, channel, segments]
+78: VDAT at position 1999832 size 61328, data hash keys: [ptnum, y, x, channel, segments]
+79: VDAT at position 2061160 size 61328, data hash keys: [ptnum, y, x, channel, segments]
+80: VDAT at position 2122488 size 61328, data hash keys: [ptnum, y, x, channel, segments]
+81: XDAT at position 2183816 size 80, data hash keys: [xdat]
+82: VSET at position 2183896 size 48, data hash keys: [ptnum, y, x, unknown, last, next]
+83: VNAM at position 2183944 size 64, data hash keys: [ptnum, y, x, title]
+84: VDAT at position 2184008 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+85: VDAT at position 2245340 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+86: VDAT at position 2306672 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+87: VDAT at position 2368004 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+88: VDAT at position 2429336 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+89: XDAT at position 2490668 size 80, data hash keys: [xdat]
+90: VSET at position 2490748 size 48, data hash keys: [ptnum, y, x, unknown, last, next]
+91: VNAM at position 2490796 size 64, data hash keys: [ptnum, y, x, title]
+92: VDAT at position 2490860 size 61336, data hash keys: [ptnum, y, x, channel, segments]
+93: VDAT at position 2552196 size 61336, data hash keys: [ptnum, y, x, channel, segments]
+94: VDAT at position 2613532 size 61336, data hash keys: [ptnum, y, x, channel, segments]
+95: VDAT at position 2674868 size 61336, data hash keys: [ptnum, y, x, channel, segments]
+96: VDAT at position 2736204 size 61336, data hash keys: [ptnum, y, x, channel, segments]
+97: XDAT at position 2797540 size 80, data hash keys: [xdat]
+98: VSET at position 2797620 size 48, data hash keys: [ptnum, y, x, unknown, last, next]
+99: VNAM at position 2797668 size 64, data hash keys: [ptnum, y, x, title]
+100: VDAT at position 2797732 size 61340, data hash keys: [ptnum, y, x, channel, segments]
+101: VDAT at position 2859072 size 61340, data hash keys: [ptnum, y, x, channel, segments]
+102: VDAT at position 2920412 size 61340, data hash keys: [ptnum, y, x, channel, segments]
+103: VDAT at position 2981752 size 61340, data hash keys: [ptnum, y, x, channel, segments]
+104: VDAT at position 3043092 size 61340, data hash keys: [ptnum, y, x, channel, segments]
+105: XDAT at position 3104432 size 80, data hash keys: [xdat]
+106: VSET at position 3104512 size 48, data hash keys: [ptnum, y, x, unknown, last, next]
+107: VNAM at position 3104560 size 64, data hash keys: [ptnum, y, x, title]
+108: VDAT at position 3104624 size 61340, data hash keys: [ptnum, y, x, channel, segments]
+109: VDAT at position 3165964 size 61340, data hash keys: [ptnum, y, x, channel, segments]
+110: VDAT at position 3227304 size 61340, data hash keys: [ptnum, y, x, channel, segments]
+111: VDAT at position 3288644 size 61340, data hash keys: [ptnum, y, x, channel, segments]
+112: VDAT at position 3349984 size 61340, data hash keys: [ptnum, y, x, channel, segments]
+113: XDAT at position 3411324 size 80, data hash keys: [xdat]
+114: VSET at position 3411404 size 48, data hash keys: [ptnum, y, x, unknown, last, next]
+115: VNAM at position 3411452 size 64, data hash keys: [ptnum, y, x, title]
+116: VDAT at position 3411516 size 61340, data hash keys: [ptnum, y, x, channel, segments]
+117: VDAT at position 3472856 size 61340, data hash keys: [ptnum, y, x, channel, segments]
+118: VDAT at position 3534196 size 61340, data hash keys: [ptnum, y, x, channel, segments]
+119: VDAT at position 3595536 size 61340, data hash keys: [ptnum, y, x, channel, segments]
+120: VDAT at position 3656876 size 61340, data hash keys: [ptnum, y, x, channel, segments]
+121: XDAT at position 3718216 size 80, data hash keys: [xdat]
+122: VSET at position 3718296 size 48, data hash keys: [ptnum, y, x, unknown, last, next]
+123: VNAM at position 3718344 size 64, data hash keys: [ptnum, y, x, title]
+124: VDAT at position 3718408 size 61336, data hash keys: [ptnum, y, x, channel, segments]
+125: VDAT at position 3779744 size 61336, data hash keys: [ptnum, y, x, channel, segments]
+126: VDAT at position 3841080 size 61336, data hash keys: [ptnum, y, x, channel, segments]
+127: VDAT at position 3902416 size 61336, data hash keys: [ptnum, y, x, channel, segments]
+128: VDAT at position 3963752 size 61336, data hash keys: [ptnum, y, x, channel, segments]
+129: XDAT at position 4025088 size 80, data hash keys: [xdat]
+130: VSET at position 4025168 size 48, data hash keys: [ptnum, y, x, unknown, last, next]
+131: VNAM at position 4025216 size 64, data hash keys: [ptnum, y, x, title]
+132: VDAT at position 4025280 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+133: VDAT at position 4086612 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+134: VDAT at position 4147944 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+135: VDAT at position 4209276 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+136: VDAT at position 4270608 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+137: XDAT at position 4331940 size 80, data hash keys: [xdat]
+138: VSET at position 4332020 size 48, data hash keys: [ptnum, y, x, unknown, last, next]
+139: VNAM at position 4332068 size 64, data hash keys: [ptnum, y, x, title]
+140: VDAT at position 4332132 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+141: VDAT at position 4393464 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+142: VDAT at position 4454796 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+143: VDAT at position 4516128 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+144: VDAT at position 4577460 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+145: XDAT at position 4638792 size 80, data hash keys: [xdat]
+146: VSET at position 4638872 size 48, data hash keys: [ptnum, y, x, unknown, last, next]
+147: VNAM at position 4638920 size 64, data hash keys: [ptnum, y, x, title]
+148: VDAT at position 4638984 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+149: VDAT at position 4700316 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+150: VDAT at position 4761648 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+151: VDAT at position 4822980 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+152: VDAT at position 4884312 size 61332, data hash keys: [ptnum, y, x, channel, segments]
+153: XDAT at position 4945644 size 80, data hash keys: [xdat]
 154: THMB at position 4945724 size 16416
 155: THMB at position 4962140 size 16416
